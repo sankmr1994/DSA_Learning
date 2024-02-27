@@ -14,6 +14,19 @@ public class _02_FizzBuzz {
      * For numbers which are multiple of 3 and 5 both,
      * the array should have "FizzBuzz" instead of the number.
      * */
+
+    /*
+     *  Problem Constraints
+     *
+     * 1 <= A <= 500000
+     * */
+
+    /*
+     *  Time and Space Complexity
+     *
+     *  TC = O(N)
+     *  SC = O(1)
+     * */
     public static void main(String[] args) {
 
         int A = 15;

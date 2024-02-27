@@ -10,7 +10,22 @@ public class _04_RotationGame {
      *
      * Given an integer array A of size N and an integer B,
      * you have to print the same array after rotating it B times towards the right.
+     * */
+
+    /*
      *
+     * Problem Constraints
+     *
+     * 1 <= N <= 10^6
+     * 1 <= A[i] <=10^8
+     * 1 <= B <= 10^9
+     * */
+
+    /*
+     *  Time and Space Complexity
+     *
+     *  TC = O(N/2) => O(N)
+     *  SC = O(1)
      * */
 
     public static void main(String[] args) {
@@ -30,7 +45,7 @@ public class _04_RotationGame {
         int noOfTimesToRotate = scanner.nextInt();
         noOfTimesToRotate = noOfTimesToRotate % arraySize;
 
-        if(noOfTimesToRotate > 0) {
+        if (noOfTimesToRotate > 0) {
             // Reverse Whole Array first [0 to (n - 1)]
             reverseArray(A, 0, arraySize - 1);
             // Reverse first number of rotation [ 0 to (noOfTimesToRotate - 1)]

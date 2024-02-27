@@ -26,6 +26,13 @@ public class _07_MultipleLeftRotationsOfArray {
      *
      * */
 
+    /*
+     *  Time and Space Complexity
+     *
+     *  TC = O(N * M)
+     *  SC = O(N)
+     * */
+
     public static void main(String[] args) {
         int[] A = {1, 2, 3, 4, 5};
         int[] B = {2, 3};
@@ -59,9 +66,9 @@ public class _07_MultipleLeftRotationsOfArray {
 
         System.out.println("After Reverse");
         //print 2D array
-        for(int[] row : res){
-            for(int colVal : row){
-                System.out.print(colVal+" ");
+        for (int[] row : res) {
+            for (int colVal : row) {
+                System.out.print(colVal + " ");
             }
             System.out.println();
         }
