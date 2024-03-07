@@ -8,7 +8,21 @@ public class _03_TimeToEquality {
      * Given an integer array A of size N. In one second,
      * you can increase the value of one element by 1.
      * Find the minimum time in seconds to make all elements of the array equal.
+     * */
+
+    /*
      *
+     * Problem Constraints
+     *
+     * 1 <= N <= 1000000
+     * 1 <= A[i] <= 1000
+     * */
+
+    /*
+     *  Time and Space Complexity
+     *
+     *  TC = O(N)
+     *  SC = O(1)
      * */
 
     public static void main(String[] args) {
@@ -17,14 +31,14 @@ public class _03_TimeToEquality {
 
         int maxValue = A[0];
         int sum = A[0];
-        for(int index = 1; index < size; index++){
-            if(A[index] > maxValue){
+        for (int index = 1; index < size; index++) {
+            if (A[index] > maxValue) {
                 maxValue = A[index];
             }
             sum = sum + A[index];
         }
 
-        System.out.println("Ans is : "+ ((maxValue * size) - sum));
+        System.out.println("Ans is : " + ((maxValue * size) - sum));
 
     }
 }

@@ -14,6 +14,20 @@ public class _05_LeadersInAnArray {
      * NOTE: The rightmost element is always a leader.
      * */
 
+    /*
+     *
+     * Problem Constraints
+     * 1 <= N <= 10^5
+     * 1 <= A[i] <= 10^8
+     * */
+
+    /*
+     *  Time and Space Complexity
+     *
+     *  TC = O(N) => O(N)
+     *  SC = O(1)
+     * */
+
     public static void main(String[] args) {
 
         int[] A = {16, 17, 4, 3, 5, 2};
